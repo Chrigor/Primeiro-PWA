@@ -1,11 +1,14 @@
 import Link from 'next/link'
 
-const Home =  () => {
+const Home = () => {
   return <ul>
     <li>
-      <Link href='/about'>About</Link>
+      <Link href='/home'>Home</Link>
+    </li>
+    <li>
+      <Link href='/live/evnts-live'>Evnts live</Link>
     </li>
   </ul>
 }
 
-export default Home;
+export default Home
